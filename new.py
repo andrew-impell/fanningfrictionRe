@@ -89,7 +89,7 @@ for i in X:
     Y.append(ff_turb(i,eoverD))
 
 X_tick = np.linspace(minRe,maxRe, 3)
-#find error between them
+
 plt.plot(X,16/X)
 plt.plot(X,Y, label = r'$Formula$')
 plt.plot(Redata,ffdata, label = r'$Data$', marker = 'o')
